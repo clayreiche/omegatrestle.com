@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>http://omegatrestle.com/</loc>
+	<lastmod>2014-06-15T16:43:00+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://omegatrestle.com/index.html</loc>
+	<lastmod>2014-06-15T16:43:03+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://omegatrestle.com/about-us.html</loc>
+	<lastmod>2014-06-15T16:43:05+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://omegatrestle.com/omega-trestl.html</loc>
+	<lastmod>2014-06-15T16:43:08+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://omegatrestle.com/gallery.html</loc>
+	<lastmod>2014-06-15T16:43:13+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://omegatrestle.com/contact.html</loc>
+	<lastmod>2014-06-15T16:43:16+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://omegatrestle.com/21st%20Century%20Crane%20Access%20Trestle.pdf</loc>
+	<lastmod>2014-06-15T16:43:19+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>
