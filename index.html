@@ -83,7 +83,9 @@ Attn: V. “Larry” Tsimmerman, P.E.
 </div>
 <script type="text/javascript">
  $(window).load(function() {
- $('#slider').nivoSlider();
+ $('#slider').nivoSlider({
+     pauseTime:5000,
+     pauseOnHover: true});
  $('.menu').hover(function(){
  $(this).css("background", "#d1d2d2");},
 function(){$(this).css("background", "#e5e5e5");});
