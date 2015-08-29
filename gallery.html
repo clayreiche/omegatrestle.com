@@ -3,8 +3,10 @@
 <head>
 <link href="image/favicon.png" rel="icon" type="image/png"/>
 <link href="css/omega.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript" src="css/fancybox.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta content="public" http-equiv="Cache-Control" />
 <meta content="en" http-equiv="content-language"/>
@@ -18,6 +20,51 @@
 <title>PRODUCTS</title>
 </head>
 <body>
+
+    <!-- OmegaLink Modal picture gallery -->
+    <div id="omegalinkModal" class="modal fade" role="dialog" style="width: 100%;">
+        <div class="modal-dialog modal-lg" style="height: 90%; width: 90%;margin-bottom: 10px;">
+            <div class="modal-content" style="height: 100%; overflow: hidden;margin-bottom: 10px;">
+                <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                   <h4 class="modal-title">Omega Beam</h4>
+                </div>
+                <div class="modal-body" style="height: 100%; padding-bottom: 10px;">
+                    <iframe src="https://omegatrestle.s3.amazonaws.com/index.html#/photos/Photos/OmegaLink/" style="border: 0; position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; overflow: hidden;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- OmegaLink5 Modal picture gallery -->
+    <div id="omegalink5Modal" class="modal fade" role="dialog" style="width: 100%;">
+        <div class="modal-dialog modal-lg" style="height: 90%; width: 90%;margin-bottom: 10px;">
+            <div class="modal-content" style="height: 100%; overflow: hidden;margin-bottom: 10px;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Omega Trestle</h4>
+                </div>
+                <div class="modal-body" style="height: 100%; padding-bottom: 10px;">
+                    <iframe src="https://omegatrestle.s3.amazonaws.com/index.html#/photos/Photos/OmegaLink5/" style="border: 0; position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; overflow: hidden;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- OmegaLink4 Modal picture gallery -->
+    <div id="omegalink4Modal" class="modal fade" role="dialog" style="width: 100%;">
+        <div class="modal-dialog modal-lg" style="height: 90%; width: 90%;margin-bottom: 10px;">
+            <div class="modal-content" style="height: 100%; overflow: hidden;margin-bottom: 10px;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Flanged Pipe Pile</h4>
+                </div>
+                <div class="modal-body" style="height: 100%; padding-bottom: 10px;">
+                    <iframe src="https://omegatrestle.s3.amazonaws.com/index.html#/photos/Photos/OmegaLink4/" style="border: 0; position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; overflow: hidden;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="wrapper">
         <div class="header">
             <div class="pole">
@@ -40,9 +87,9 @@
             <div id="center">
                 <table id="t01">
                     <tr>
-                        <td><img src="image/omega beam.jpg" alt="" /><br /><a href="https://www.dropbox.com/sh/z0ff02hyjgxx5t9/AAAvtI67YZl4fYe6BEj6Pz9_a">Omega Beam</a></td>
-                        <td><img src="image/omega trestle.jpg" alt="" /><br /><a href="https://www.dropbox.com/sh/xm0duoprui65qfs/AAAdtLLKO09gK-b_6WEPp6_Fa?dl=0">Omega Trestle</a></td>
-                        <td><img src="image/flaged pipe pile.jpg" alt="" /><br /><a href="https://www.dropbox.com/sh/tgwmhv2w3fyy4pf/AADGQYzOv6eHbKgNpwxr74LFa?dl=0">Flanged Pipe Pile</a></td>
+                        <td><img src="image/omega beam.jpg" alt="" /><br /><a href="#" data-toggle="modal" data-target="#omegalinkModal">Omega Beam</a></td>
+                        <td><img src="image/omega trestle.jpg" alt="" /><br /><a href="#" data-toggle="modal" data-target="#omegalink5Modal">Omega Trestle</a></td>
+                        <td><img src="image/flaged pipe pile.jpg" alt="" /><br /><a href="#" data-toggle="modal" data-target="#omegalink4Modal">Flanged Pipe Pile</a></td>
                     </tr>
                 </table>
                 <table id="t01">
